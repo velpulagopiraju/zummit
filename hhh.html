@@ -1,0 +1,20 @@
+function verifyOtp() {
+
+    const generatedOtp=localStorage.getItem("generatedOtp");
+    const enteredOtp=localStorage.getItem("enteredOtp");
+    console.log(generatedOtp)
+    console.log(enteredOtp)
+    //var generatedOtp = localStorage.getItem("generatedOtp");// Replace with your generated OTP
+    //var enteredOtp = localStorage.getItem("enteredOtp");
+
+    
+    if (generatedOtp === enteredOtp) {
+        localStorage.setItem("isVerified",1);
+    }
+    else {
+        alert("Please enter correct otp");
+    }
+    console.log(isVerified);
+
+}
+document.getElementById("submit-btn1").addEventListener("click", verifyOtp);

@@ -1,0 +1,380 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Raleway', sans-serif; 
+    overflow-x: hidden;
+}
+.line{
+    margin-top: 3%;
+width: 100%;
+height: 0px;
+
+
+/* Dark mode/Secondary */
+
+border: 1px solid #273152;
+transform: rotate(-0.12deg);
+}
+.header{
+    
+width: 215px;
+height: 38px;
+margin-top: 2%;
+margin-left: 5%;
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 500;
+font-size: 2vw;
+line-height: 38px;
+text-align: center;
+
+/* Text/Grey */
+
+color: #1C1C1C;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.list{
+    
+    text-align: center;
+    margin: 0 auto;
+    }
+    .list ul{
+        top: 14%;
+    /* Heading/32 */
+    text-align: center;
+    left:40%;
+    }
+    .list li{
+        display: inline-block;
+        padding-right:3%;
+        padding-left: 1%;
+        border-right: 2px solid;
+    }
+    .bi{
+        margin-right: 10px;
+    }
+.progress-back{
+    margin-Top: 20px !important;
+    background: #F2F2F2;
+    width: 578px !important;
+    text-align: center;
+    border-radius: 4px;
+}
+.progress{
+    z-Index: 10;
+    width: 346px;
+    margin-left: 0%;
+    background-color: #115087;
+    color: #fff;
+    text-align: center;
+    border-radius: 4px;
+}
+.body{
+    margin-top:2%;
+width: 80%;
+height: 100%;
+margin-left: 10%;
+background: #F2F7FF;
+border-radius: 8px;
+padding-bottom: 5%;
+margin-bottom: 5%;
+}
+.icon{
+   
+   margin-top: 2%;
+   margin-left: 45%;
+    
+    /* Main/Tertiary */
+    
+    color: #27AE60;
+}
+.detail .inputBox{
+    width: 36%;
+height: 52px;
+position: relative;
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 500;
+font-size: 22px;
+line-height: 26px;
+color: #115087;
+top:20%;
+/* Inside auto layout */
+margin-left: 25%;
+margin-top: 5%;
+
+}
+@media only screen and (max-width: 600px) {
+   
+    body{
+        overflow-x: scroll;
+    }
+    .line{
+        margin-top: 3%;
+    width: 125%;
+    height: 0px;
+    /* Dark mode/Secondary */
+    border: 1px solid #273152;
+    transform: rotate(-0.12deg);
+    }
+    select{
+        width:400%;
+    }
+    .detail .inputBox{
+    width: 36%;
+    height: 52px;
+    position: relative;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+    color: #115087;
+    top:20%;
+    /* Inside auto layout */
+    margin-left: 25%;
+    margin-top: 5%;
+    
+    }
+    .progress-back{
+        margin-Top: 20px !important;
+        background: #F2F2F2;
+        width: 80% !important;
+        text-align: center;
+        border-radius: 4px;
+    }
+    .progress{
+        z-Index: 10;
+        width: 225px;
+        margin-left: 0%;
+        background-color: #115087;
+        color: #fff;
+        text-align: center;
+        border-radius: 4px;
+    }
+    .header{
+        font-size: 4vw;
+        margin-left: 1%;
+    }
+  }
+
+.inner-heading{
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 600;
+font-size: 25px;
+line-height: 29px;
+margin-left: 12%;
+padding-top: 3%;
+/* Text/Grey */
+
+color: #1C1C1C;
+}
+
+input{
+    box-sizing: border-box;
+
+position: absolute;
+width: 100%;
+height: 5%;
+
+/* White / White 100 */
+
+background: #FFFFFF;
+/* Main/1 */
+color: black;
+border: 1px solid #115087;
+border-radius: 8px;
+padding: 2rem 1rem 1rem 1rem !important;
+}
+
+select{
+    box-sizing: border-box;
+
+position: absolute;
+width: 100%;
+
+/* White / White 100 */
+
+background: #FFFFFF;
+/* Black / Black 64 */
+padding: 1.5rem 1rem 1rem 0.75rem !important;
+border: 1px solid rgba(17, 17, 17, 0.64);
+border-radius: 8px;
+}
+
+.detail .inputBox label{
+    position: absolute;
+    width: 100%;
+height: 14px;
+left: 16px;
+top: 9px;
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 14px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+
+/* Main/1 */
+
+color: #115087;
+
+};
+
+.detail .flex .inputBox svg{
+    display: flex !important;
+    align-items: center !important;
+    /* display: inline-block !important;
+    padding-top: 40px !important; */
+}
+
+.flex{
+    display: flex
+}
+
+svg{
+    z-Index: 100;
+    margin-left: -2%;
+}
+
+.btn-1{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 15px 32px;
+gap: 4px;
+
+width: 91px;
+height: 42px;
+left: 513px;
+top: 478px;
+
+/* Main/1 */
+cursor: pointer;
+background: #115087;
+border-radius: 12px;
+}
+
+.btn-1-content{
+    width: 51px;
+height: 24px;
+
+/* Paragraph 2 Medium */
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+
+/* White / White 100 */
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+cursor: pointer;
+}
+
+
+/* The Modal (background) */
+
+  
+
+  .btn-2{
+    box-sizing: border-box;
+
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 7px 12px;
+gap: 4px;
+margin-top: 55px;
+margin-left: 1rem;
+/* Main/4 */
+
+background: #F2F7FF;
+/* Main/1 */
+
+border: 2px solid #115087;
+border-radius: 12px;
+cursor:pointer;
+}
+
+
+.btn-2-content{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 13px;
+line-height: 20px;
+/* identical to box height, or 154% */
+
+
+/* Main/1 */
+
+color: #115087;
+}
+
+.upload label{
+
+    margin-left: 25%;
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 14px;
+color: #115087;
+display: block;
+margin-top: 2%;
+margin-bottom: 1%;
+}
+.upload-btn-wrapper {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    left:25%;
+  }
+  
+  .btn {
+    background: #F2F7FF;
+    box-shadow: 0px 3px 4px #E0E8F5;
+    border-radius: 12px;
+    justify-content: center;
+align-items: center;
+padding: 8px 12px;
+gap: 10px;
+background-color: #F2F7FF;
+box-shadow: 0px 3px 4px #E0E8F5;
+border-radius: 12px;
+
+  }
+  
+  .upload-btn-wrapper input[type=file] {
+    font-size: 100px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+  }
